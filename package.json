@@ -1,5 +1,5 @@
 {
-  "name": "pizza-lab-system",
+  "name": "Pizzeria Pizza delivery service",
   "version": "0.0.1",
   "description": "Pizza Lab",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "pizza",
     "system"
   ],
-  "author": "PA",
+  "author": "GeezerP",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
