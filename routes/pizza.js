@@ -98,6 +98,8 @@ router.post('/create', authCheck, (req, res) => {
   }
 })
 
+//Edit Pizza route 
+
 router.post('/edit/:id', authCheck, (req, res) => {
   if (req.user.roles.indexOf('Admin') > -1) {
     const pizzaId = req.params.id
