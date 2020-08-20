@@ -18,7 +18,7 @@ node {
             echo "Testing"
         stage 'Deploy'
 
-            echo "Testing deploy."
+            echo "Testing deployment"
 
         stage 'Publish results'
             slackSend color: "good", message: "Build successful :banana_dance: \n `${env.JOB_NAME}#${env.BUILD_NUMBER}` <${env.BUILD_URL}|Open in Jenkins>"
